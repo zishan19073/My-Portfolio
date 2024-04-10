@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mq.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <div class="containr main-nav flex">
+            <label class="logo">Zishan.</label>
+
+            <div class="options" id="options">
+                <ul class="flex">
+                    <li><a class="link" href="#">Home</a></li>
+                    <li><a class="link" href="#abt">About</a></li>
+                    <li><a class="link" href="#pro">Projects</a></li>
+                    <li><a class="link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        <a href="#" class="nav-toggle" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </nav>
+    <!-- header section -->
+    <header class="header-sct">
+        <div class="containerrr header-section flex">
+            <div class="header-left">
+                <h1 class="h">Hey, I'm MD Zishan</h1>
+                <h2 class="h">Frontend-Developer</h2>
+                <p class="h">Passionate frontend developer crafting dynamic web experiences with HTML, CSS, and
+                    JavaScript expertise.</p>
+                <!-- <a href="#" class="primary-button gts">Get Started</a> -->
+            </div>
+            <div class="header-right">
+                <img src="px/imageedit_1_4835580336.png" alt="hero img">
+            </div>
+        </div>
+    </header>
+    <!-- about section -->
+    <section class="abu-sct" id="abt">
+        <div class="head">
+            <h1>About Me</h1>
+        </div>
+        <div class="container flex">
+            <div class="experience flex">
+                <h2><i class="fa-solid fa-circle-check"></i></h2>
+                <h1>Experience</h1>
+                <p>2-years Experience in Frontend Development</p>
+            </div>
+            <div class="education flex">
+                <h2><i class="fa-solid fa-book-open"></i></h2>
+                <h1>Education</h1>
+                <p>B.C.A Bachelors Degree</p>
+                <p>10+2 Higher Secondary</p>
+            </div>
+        </div>
+        <div class="me">
+            <p>Combining a B.C.A Bachelors Degree with a Higher Secondary education, my academic background provides a
+                solid foundation for frontend development. Proficient in HTML, CSS, and JavaScript, I possess practical
+                experience in building responsive and visually appealing websites and web applications. Through
+                continuous learning and exploration of frameworks like React and Angular, I remain updated with the
+                latest trends and technologies in frontend development. Additionally, my ability to adapt and learn new
+                concepts swiftly contributes to my effectiveness in this dynamic field. I am eager to leverage my
+                education and experience to contribute to innovative projects, collaborating with teams to deliver
+                exceptional user experiences. With a passion for creativity and problem-solving, I am committed to
+                advancing my skills and making meaningful contributions to the ever-evolving landscape of frontend
+                development.</p>
+        </div>
+    </section>
+    <!-- projects section -->
+    <section class="projects" id="pro">
+        <div class="head">
+            <h1>Projects</h1>
+        </div>
+        <div class="pro flex">
+            <div class="pro-1 flex">
+                <div class="box-1">
+                    <img src="px/Screenshot (2).png" alt="">
+                </div>
+                <div>
+                    <ul class="button flex">
+                        <li class="il"><a class="primary-button" href="https://github.com/zishan19073/clonewebpage">Github</a></li>
+                        <li class="ili"><a class="primary-button" href="https://zishan19073.github.io/clonewebpage/">Live-Demo</a></li>
+                    </ul>
+
+                </div>
+                <div class="per">
+                    <h2>A Clone Web Page</h2>
+                    <p class="ge">Discover our clone webpage of UsabilityHub, meticulously crafted with just HTML and
+                        CSS.
+                        Embracing simplicity and functionality, our platform mirrors the intuitive interface of
+                        UsabilityHub for seamless user experience testing. With clean HTML markup and precise CSS
+                        styling, navigation is intuitive, and design elements are responsive. Explore comprehensive
+                        usability testing effortlessly on our clone webpage, where the power of HTML and CSS combine to
+                        deliver an engaging testing environment. Join us and experience the efficiency of user-centric
+                        testing firsthand.</p>
+                </div>
+
+            </div>
+            <div class="pro-2 flex">
+                <div class="box-2">
+                    <img src="px/Screenshot (3).png" alt="">
+                </div>
+                <div>
+                    <ul class="button flex">
+                        <li class="il"><a class="primary-button" href="https://github.com/zishan19073/Signup-Page">Github</a></li>
+                        <li class="ili"><a class="primary-button" href="https://zishan19073.github.io/Signup-Page/">Live-Demo</a></li>
+                    </ul>
+                </div>
+                <div class="per">
+                    <h2>A Signup Page</h2>
+                    <p class="ge">Our project aims to create an engaging signup page utilizing solely HTML and CSS.
+                        Through innovative design techniques, we're implementing an animated background to captivate
+                        users upon arrival. By seamlessly blending visual appeal with user functionality, our HTML and
+                        CSS-driven signup page offers a dynamic and interactive experience. Through careful
+                        consideration of animation principles and CSS styling, we aim to elevate the user's journey,
+                        providing both aesthetic pleasure and intuitive navigation. Join us as we redefine the signup
+                        process through the power of HTML and CSS creativity.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- connect with me -->
+    <footer>
+        <div class="subfooter">
+            <div class="containerr flex subfooter-container">
+                <a href="#" class="link">Home</a>
+                <a href="#abt" class="link">About</a>
+                <a href="https://www.linkedin.com/in/zishan-haque-7aa884232/" class="link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="link"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a1d55e88b8.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('options');
+
+        toggleButton.addEventListener('click',()=>{
+            navLinks.classList.toggle('active');
+        })
+    </script>
+
+
+
+</body>
+
+</html>
